@@ -1,0 +1,15 @@
+div.hero{
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+div.fade{
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+  position: absolute;
+  bottom: 0;
+}

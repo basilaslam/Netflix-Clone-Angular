@@ -1,0 +1,12 @@
+.movie_section{
+  display: flex;
+  flex-direction:row;
+  overflow-y: hidden;
+  overflow-x:hidden;
+  gap: 10px;
+  padding: 0, 10px;
+}
+
+.movie_section ::-webkit-scrollbar{
+  display: none;
+}

@@ -1,0 +1,20 @@
+div.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background: transparent;
+  position: fixed;
+  z-index: 40;
+  width: 97%;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+div.navbar > img{
+  height: 25px;
+}
+
+.black-bg{
+  background-color: black !important;
+}
